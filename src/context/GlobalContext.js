@@ -117,7 +117,7 @@ export const GlobalProvider = ({ children }) => {
         
     return (
         <GlobalContext.Provider value={{
-            currentAccount, connectWallet, getIndexCount, writeOnChain, checkIfWallet, getChain, connected, setData, data
+            currentAccount, connectWallet, getIndexCount, getEtherContract, writeOnChain, checkIfWallet, getChain, connected, setData, data
         }}>
             {children}
         </GlobalContext.Provider>
